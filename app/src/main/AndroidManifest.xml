@@ -60,6 +60,7 @@
             android:exported="false"
             android:process=":crash"
             android:excludeFromRecents="true"
+            android:taskAffinity="app.mags.crash"
             android:theme="@style/Theme.Cita.Crash" />
 
         <receiver
