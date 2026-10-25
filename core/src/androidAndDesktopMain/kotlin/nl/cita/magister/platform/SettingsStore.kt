@@ -85,7 +85,6 @@ class FileSettingsStore(
         val text = MagisterJson.instance.encodeToString(StoreBlob(values.toMap()))
         val bytes = if (secret != null) encrypt(text, secret) else text.encodeToByteArray()
         val tmp = File(file.parentFile, "${file.name}.tmp")
-        val tmp = File(file.parentFile, "${file.name}.tmp")
         tmp.writeBytes(bytes)
         if (!tmp.renameTo(file)) {
             file.writeBytes(bytes)
