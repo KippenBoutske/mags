@@ -1,0 +1,14 @@
+# Baseline profile for Mags — class startup set (no HSP flags on types).
+Lnl/cita/magister/MainActivity;
+Lnl/cita/magister/CitaApp;
+Lnl/cita/magister/ui/CitaRootKt;
+Lnl/cita/magister/ui/CitaViewModel;
+Lnl/cita/magister/ui/nav/PhotosDockKt;
+Lnl/cita/magister/ui/nav/MagsTopBarKt;
+Lnl/cita/magister/ui/today/TodayScreenKt;
+Lnl/cita/magister/ui/login/LoginScreenKt;
+Lnl/cita/magister/ui/theme/CitaThemeKt;
+Lnl/cita/magister/ui/schedule/ScheduleScreenKt;
+Lnl/cita/magister/ui/grades/GradesScreenKt;
+Lnl/cita/magister/ui/homework/HomeworkScreenKt;
+Lnl/cita/magister/data/repo/MagisterRepository;
